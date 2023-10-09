@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>mission_5-1カレンダー</title>
+<link rel="stylesheet" href="mission_5-1_2.css">
+</head>
+<body>
+	<script src="mission_5-1_2.js"></script>
+
+    <div class="wrapper">
+        <!-- 電卓本体 -->
+        <div id="result_frame">
+            <input readonly id="result" type="text" value="0">
+        </div>
+            
+
+                <div id ="calc_frame">
+                    <button class="button_top" onclick="buttonClick_c()">C</button>
+                    <button class="button_top" onclick="buttonClick_d()">D</button>
+                    <button class="button_top"onclick="buttonClick_kaijo()">!</button>
+                    <button class="button_ope" onclick="buttonClick_ope(this.innerHTML)">÷</button>
+                
+
+            
+                    <button onclick="buttonClick_num(this.innerHTML)">7</button>
+                    <button onclick="buttonClick_num(this.innerHTML)">8</button>
+                    <button onclick="buttonClick_num(this.innerHTML)">9</button>
+                    <button class="button_ope" onclick="buttonClick_ope(this.innerHTML)">×</button>
+                
+
+                
+                    <button onclick="buttonClick_num(this.innerHTML)">4</button>
+                    <button onclick="buttonClick_num(this.innerHTML)">5</button>
+                    <button onclick="buttonClick_num(this.innerHTML)">6</button>
+                    <button class="button_ope"onclick="buttonClick_ope(this.innerHTML)">-</button>
+                
+
+                
+                    <button onclick="buttonClick_num(this.innerHTML)">1</button>
+                    <button onclick="buttonClick_num(this.innerHTML)">2</button>
+                    <button onclick="buttonClick_num(this.innerHTML)">3</button>
+                    <button class="button_ope"onclick="buttonClick_ope(this.innerHTML)">+</button>
+                
+
+                
+                    <button onclick="buttonClick_num(this.innerHTML)">0</button>
+                    <button onclick="buttonClick_num(this.innerHTML)">00</button>
+                    <button onclick="buttonClick_num(this.innerHTML)">.</button>
+                    <button class="button_ope" onclick="buttonClick_equ(this.innerHTML)">=</button>
+                </div>
+    </div>
+
+
+
+</body>
+</html>

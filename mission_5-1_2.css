@@ -1,0 +1,64 @@
+@charset "utf-8";
+/*全体*/
+.wrapper{
+  max-width: 350px;
+  margin:  auto;
+}
+#result_frame{
+    text-align: right;
+  }
+#calc_frame{
+    text-align: center;
+  }
+
+/*ヘッダー*/
+#result {
+  font-size: 60px;
+  color: #fff;
+  background-color: black;
+  box-sizing: border-box;
+  width: 100%;
+  height: 75px;
+  text-align: right;
+  padding: 32px;
+  border: none;
+}
+
+/*ボタン関係*/
+button{
+  font-size: 32px;
+  width: 75px;
+  height: 75px;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  background-color: #333333;
+  vertical-align: middle;
+  border-color: #fff;
+  margin: 2px;
+}
+
+.button_top{
+    color: black;
+    background-color: #A5A5A5;
+  }
+
+.button_ope{
+    color: white;
+    background-color: #FF9F0B;
+  }
+
+.button_top:hover{
+  background-color: #ddd;
+}
+.button_ope:hover{
+    background-color: #D37E08;
+  }
+button:hover{
+  background-color: #ddd;
+}
+
+
+body {
+    background-color: black;
+}
