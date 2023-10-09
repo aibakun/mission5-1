@@ -36,6 +36,7 @@ button{
   vertical-align: middle;
   border-color: #fff;
   margin: 2px;
+  cursor: pointer;
 }
 
 .button_top{
